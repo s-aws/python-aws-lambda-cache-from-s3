@@ -1,0 +1,16 @@
+{
+  "sampleConfig": "this is just a sample config to be used for testing. this goes in the S3 bucket defined in the s3_to_local default or passed via args",
+  "service": {
+    "name": "s3",
+    "region": "us-east-1",
+    "bucketname": "aws-sh"
+  },
+  "return": {
+    "bodykeyname": "body",
+    "statuskeyname": "statusCode"
+  },
+  "httpCode": {
+    "OK": 200,
+    "NOTOK": 2
+  }
+}
